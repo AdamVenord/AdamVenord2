@@ -20,27 +20,27 @@ const Home = () => (
       </Card>
       <Card>
         {/* awards */}
-        <Image src={awards} rounded/>
+        <Image src={awards} className={styles.awards} />
       </Card>
       <Card>
         {/* files */}
-        <Image src={files} />
+        <Image src={files} className={styles.files} />
       </Card>
       <Card>
         {/* music */}
-        <Image src={music} />
+        <Image src={music} className={styles.music} />
       </Card>
       <Card>
         {/* polaroid */}
-        <Image src={polaroid} />
+        <Image src={polaroid} className={styles.polaroid} />
       </Card>
       <Card>
         {/* contact me OwO */}
-        <Image src={contact} />
+        <Image src={contact} className={styles.contact} />
       </Card>
       <Card>
         {/* projects and more */}
-        <Image src={coding} />
+        <Image src={coding} className={styles.coding} />
       </Card>
     </Container>
   </>
