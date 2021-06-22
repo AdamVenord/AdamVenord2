@@ -1,41 +1,79 @@
 .home {
   background-color: grey;
-  padding: 40px;
+  padding: 10px;
   font-family: Arial;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+/* try and find a solution which makes the container fill the rest of the unused screen */
+
+.container1 {
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.container2 {
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .longboarding {
   border-radius: 8px;
-  width: 300px;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .awards {
   border-radius: 8px;
-  width: 300px;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .files {
   border-radius: 8px;
-  width: 300px;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .music {
   border-radius: 8px;
-  width: 300px;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .polaroid {
   border-radius: 8px;
-  width: 300px;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .contact {
   border-radius: 8px;
-  width: 300px;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .coding {
   border-radius: 8px;
-  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  width: 450px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 

@@ -12,8 +12,9 @@ import '../css/App.css'
 
 const Home = () => (
   <>
-  <Container className={styles.home} >
+  <Container className={styles.home} class="center" >
     <h1>Home</h1>
+    <Container className={styles.container1} >
       <Card>
         {/* About me */}
         <Image src={longboarding} className={styles.longboarding} />
@@ -23,21 +24,24 @@ const Home = () => (
         <Image src={awards} className={styles.awards} />
       </Card>
       <Card>
-        {/* files */}
-        <Image src={files} className={styles.files} />
-      </Card>
-      <Card>
-        {/* music */}
-        <Image src={music} className={styles.music} />
-      </Card>
-      <Card>
         {/* polaroid */}
         <Image src={polaroid} className={styles.polaroid} />
+      </Card>
+    </Container>
+    <Container className={styles.container2} >
+      <Card>
+        {/* files */}
+        <Image src={files} className={styles.files} />
       </Card>
       <Card>
         {/* contact me OwO */}
         <Image src={contact} className={styles.contact} />
       </Card>
+      <Card>
+        {/* music */}
+        <Image src={music} className={styles.music} />
+      </Card>
+    </Container>
       <Card>
         {/* projects and more */}
         <Image src={coding} className={styles.coding} />
