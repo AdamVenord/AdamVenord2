@@ -8,6 +8,76 @@
   justify-content: center;
 }
 
+.about {
+  background-color: grey;
+  padding: 10px;
+  font-family: Arial;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.coding {
+  background-color: grey;
+  padding: 10px;
+  font-family: Arial;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.contact {
+  background-color: grey;
+  padding: 10px;
+  font-family: Arial;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.missing {
+  background-color: grey;
+  padding: 10px;
+  font-family: Arial;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.music {
+  background-color: grey;
+  padding: 10px;
+  font-family: Arial;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.photography {
+  background-color: grey;
+  padding: 10px;
+  font-family: Arial;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.resume {
+  background-color: grey;
+  padding: 10px;
+  font-family: Arial;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  justify-content: center;
+}
+
 /* try and find a solution which makes the container fill the rest of the unused screen */
 
 .container1 {

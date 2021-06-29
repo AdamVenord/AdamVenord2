@@ -1,7 +1,11 @@
 import React from "react"
+import { Container } from 'semantic-ui-react'
+import styles from '../css/mystyle.module.css'; 
 
 const Missing = () => (
-  <h2>Whoops! Broken Link</h2>
+  <Container className={styles.home} class="center" >
+    <h2>Whoops! Broken Link</h2>
+  </Container>
 );
 
 export default Missing;
