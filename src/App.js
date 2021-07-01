@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
+import Awards from './components/Awards';
 import Coding from './components/Coding';
 import Contact from './components/Contact';
 import Music from './components/Music';
@@ -14,6 +15,7 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/About" component={About} />
+      <Route exact path="/Awards" component={Awards} />
       <Route exact path="/Coding" component={Coding} />
       <Route exact path="/Contact" component={Contact} />
       <Route exact path="/Music" component={Music} />

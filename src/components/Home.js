@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, } from 'react-router-dom'
 import { Card, Image, Container } from 'semantic-ui-react'
 import awards from './Images/awards.png'
 import coding from './Images/coding.png'
@@ -12,39 +13,53 @@ import '../css/App.css'
 
 const Home = () => (
   <>
-  <Container className={styles.home} class="center" >
+  <Container className={styles.home} class="center" style={{ width: "auto" }}>
     <h1>Home</h1>
     <Container className={styles.container1} >
       <Card>
-        {/* About me */}
-        <Image src={longboarding} className={styles.longboarding} />
+        <Link to="About">
+          {/* About me */}
+          <Image src={longboarding} className={styles.longboarding} />
+        </Link>
       </Card>
       <Card>
-        {/* awards */}
-        <Image src={awards} className={styles.awards} />
+        <Link to="awards" >
+          {/* awards */}
+          <Image src={awards} className={styles.awards} />
+        </Link>
       </Card>
       <Card>
-        {/* polaroid */}
-        <Image src={polaroid} className={styles.polaroid} />
+        <Link to ="/Photography">
+          {/* polaroid */}
+          <Image src={polaroid} className={styles.polaroid} />
+        </Link>
       </Card>
     </Container>
     <Container className={styles.container2} >
       <Card>
-        {/* files */}
-        <Image src={files} className={styles.files} />
+        <Link to="Resume">
+          {/* resume */}
+          <Image src={files} className={styles.files} />
+        </Link>
       </Card>
       <Card>
-        {/* contact me OwO */}
-        <Image src={contact} className={styles.contact} />
+        <Link to="Contact">
+          {/* contact me OwO */}
+          <Image src={contact} className={styles.contact} />
+        </Link>
       </Card>
       <Card>
-        {/* music */}
-        <Image src={music} className={styles.music} />
+        <Link to="Music">
+          {/* music */}
+          <Image src={music} className={styles.music} />
+        </Link>
       </Card>
     </Container>
       <Card>
-        {/* projects and more */}
-        <Image src={coding} className={styles.coding} />
+        <Link to="Coding">
+          {/* projects and more */}
+          <Image src={coding} className={styles.coding} />
+        </Link>
       </Card>
     </Container>
   </>
