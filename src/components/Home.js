@@ -12,6 +12,10 @@ import styles from '../css/mystyle.module.css';
 import '../css/App.css'
 
 const Home = () => (
+
+  // Turn the segments into columns, that should help with organizing the page. After that try to get responsive on here,
+  // but take it one step at a time
+  // edit the photos so when you hover over them it shows where they go
   <>
   <Container className={styles.home} class="center" style={{ width: "auto" }}>
     <h1>Home</h1>
